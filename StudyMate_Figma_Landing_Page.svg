@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2100" viewBox="0 0 1440 2100">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F1EFFF"/>
+      <stop offset="100%" stop-color="#E8F4FF"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7567FF"/>
+      <stop offset="100%" stop-color="#5B4DE6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#26335B" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Page background -->
+  <rect width="1440" height="2100" fill="#FFFFFF"/>
+
+  <!-- Header -->
+  <rect x="0" y="0" width="1440" height="100" fill="#FFFFFF"/>
+  <line x1="0" y1="99" x2="1440" y2="99" stroke="#EEF0F6" stroke-width="2"/>
+  <g transform="translate(72 27)">
+    <rect x="0" y="0" width="46" height="46" rx="14" fill="url(#purpleGrad)"/>
+    <path d="M10 13 Q17 9 23 14 Q29 9 36 13 L36 33 Q29 29 23 34 Q17 29 10 33 Z" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M23 14 L23 33" stroke="#FFFFFF" stroke-width="2.2"/>
+    <text x="60" y="30" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="750" fill="#20243A">StudyMate</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="16" font-weight="550" fill="#555B70">
+    <text x="555" y="59">Home</text>
+    <text x="645" y="59">Features</text>
+    <text x="755" y="59">How It Works</text>
+    <text x="895" y="59">About</text>
+  </g>
+  <rect x="1120" y="27" width="172" height="48" rx="12" fill="url(#purpleGrad)"/>
+  <text x="1206" y="57" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Get Started</text>
+
+  <!-- Hero -->
+  <rect x="48" y="132" width="1344" height="610" rx="32" fill="url(#heroGrad)"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="100" y="202" width="218" height="36" rx="18" fill="#FFFFFF" opacity="0.92"/>
+    <circle cx="120" cy="220" r="5" fill="#6C63FF"/>
+    <text x="135" y="226" font-size="13" font-weight="700" letter-spacing="0.8" fill="#5E55D9">YOUR STUDY COMPANION</text>
+    <text x="100" y="310" font-size="54" font-weight="800" fill="#20243A">Plan Your Studies.</text>
+    <text x="100" y="374" font-size="54" font-weight="800" fill="#6C63FF">Achieve Your Goals.</text>
+    <text x="100" y="425" font-size="19" fill="#626981">Organize subjects, track assignments, and plan exams</text>
+    <text x="100" y="455" font-size="19" fill="#626981">in one simple place made for busy students.</text>
+    <rect x="100" y="494" width="174" height="56" rx="13" fill="url(#purpleGrad)"/>
+    <text x="187" y="528" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">Start Studying  →</text>
+    <rect x="290" y="494" width="170" height="56" rx="13" fill="#FFFFFF" stroke="#D8D5FF" stroke-width="1.5"/>
+    <text x="375" y="528" text-anchor="middle" font-size="16" font-weight="700" fill="#5148C8">Explore Features</text>
+    <g fill="#5D657C" font-size="13" font-weight="550">
+      <circle cx="108" cy="594" r="5" fill="#2FBF8F"/><text x="122" y="599">Simple planning</text>
+      <circle cx="268" cy="594" r="5" fill="#2FBF8F"/><text x="282" y="599">Stay organized</text>
+      <circle cx="430" cy="594" r="5" fill="#2FBF8F"/><text x="444" y="599">Reach your goals</text>
+    </g>
+  </g>
+
+  <!-- Hero illustration: floating dashboard -->
+  <g filter="url(#shadow)">
+    <rect x="770" y="215" width="530" height="390" rx="24" fill="#FFFFFF"/>
+    <rect x="770" y="215" width="530" height="64" rx="24" fill="#FFFFFF"/>
+    <path d="M770 255 L770 279 L1300 279 L1300 255" fill="#FFFFFF"/>
+    <circle cx="802" cy="247" r="6" fill="#FF8A8A"/>
+    <circle cx="823" cy="247" r="6" fill="#FFC45C"/>
+    <circle cx="844" cy="247" r="6" fill="#53D6A0"/>
+    <text x="875" y="253" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#282D43">My Study Dashboard</text>
+    <rect x="798" y="302" width="220" height="122" rx="16" fill="#F4F2FF"/>
+    <text x="818" y="330" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#6A668A">WEEKLY PROGRESS</text>
+    <text x="818" y="370" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800" fill="#282D43">78%</text>
+    <rect x="818" y="388" width="177" height="9" rx="4.5" fill="#DED9FF"/>
+    <rect x="818" y="388" width="138" height="9" rx="4.5" fill="#6C63FF"/>
+    <rect x="1040" y="302" width="232" height="122" rx="16" fill="#F0FBF7"/>
+    <text x="1060" y="330" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#648579">TASKS COMPLETED</text>
+    <text x="1060" y="370" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800" fill="#20243A">12 / 15</text>
+    <g transform="translate(1060 388)">
+      <rect width="28" height="17" rx="5" fill="#47C99A"/>
+      <rect x="35" width="28" height="17" rx="5" fill="#47C99A"/>
+      <rect x="70" width="28" height="17" rx="5" fill="#47C99A"/>
+      <rect x="105" width="28" height="17" rx="5" fill="#47C99A"/>
+      <rect x="140" width="28" height="17" rx="5" fill="#D9F2E9"/>
+    </g>
+    <text x="800" y="460" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="750" fill="#282D43">Today's plan</text>
+    <g font-family="Inter, Arial, sans-serif" font-size="13" fill="#4D536A">
+      <rect x="798" y="478" width="474" height="42" rx="11" fill="#FAFAFE" stroke="#EFF0F7"/>
+      <circle cx="819" cy="499" r="8" fill="#E8E4FF"/><path d="M815 499 L818 502 L824 495" fill="none" stroke="#6C63FF" stroke-width="1.8"/>
+      <text x="839" y="504">Review Data Structures notes</text>
+      <text x="1238" y="504" text-anchor="end" fill="#7B8094">10:00 AM</text>
+      <rect x="798" y="528" width="474" height="42" rx="11" fill="#FAFAFE" stroke="#EFF0F7"/>
+      <circle cx="819" cy="549" r="8" fill="#FFF0D8"/><path d="M815 549 L818 552 L824 545" fill="none" stroke="#D99726" stroke-width="1.8"/>
+      <text x="839" y="554">Complete web design assignment</text>
+      <text x="1238" y="554" text-anchor="end" fill="#7B8094">2:00 PM</text>
+    </g>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="720" y="520" width="180" height="92" rx="18" fill="#FFFFFF"/>
+    <circle cx="750" cy="551" r="15" fill="#E8FBF4"/>
+    <path d="M743 551 L748 556 L757 545" fill="none" stroke="#2DBB8B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="775" y="550" font-family="Inter, Arial, sans-serif" font-size="12" fill="#747A90">Daily goal</text>
+    <text x="742" y="585" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="750" fill="#20243A">3 of 4 tasks</text>
+  </g>
+
+  <!-- Features -->
+  <text x="720" y="830" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="750" letter-spacing="1.8" fill="#6C63FF">MADE FOR STUDENTS</text>
+  <text x="720" y="880" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#20243A">Everything You Need to Study Better</text>
+  <text x="720" y="917" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" fill="#6C7288">Simple tools to keep your academic life on track.</text>
+
+  <!-- Feature card 1 -->
+  <g filter="url(#shadow)">
+    <rect x="90" y="970" width="390" height="270" rx="22" fill="#FFFFFF" stroke="#ECECF5" stroke-width="1.5"/>
+    <rect x="122" y="1002" width="64" height="64" rx="18" fill="#EFEDFF"/>
+    <path d="M138 1019 Q147 1015 154 1020 Q161 1015 170 1019 L170 1048 Q161 1044 154 1049 Q147 1044 138 1048 Z" fill="none" stroke="#6C63FF" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M154 1020 L154 1048" stroke="#6C63FF" stroke-width="2"/>
+    <text x="122" y="1110" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="750" fill="#20243A">Manage Subjects</text>
+    <text x="122" y="1147" font-family="Inter, Arial, sans-serif" font-size="16" fill="#6A7085">Keep your subjects and study</text>
+    <text x="122" y="1173" font-family="Inter, Arial, sans-serif" font-size="16" fill="#6A7085">materials organized in one place.</text>
+    <text x="122" y="1210" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#6C63FF">Explore feature  →</text>
+  </g>
+
+  <!-- Feature card 2 -->
+  <g filter="url(#shadow)">
+    <rect x="525" y="970" width="390" height="270" rx="22" fill="#FFFFFF" stroke="#ECECF5" stroke-width="1.5"/>
+    <rect x="557" y="1002" width="64" height="64" rx="18" fill="#E7F8F2"/>
+    <rect x="575" y="1017" width="29" height="34" rx="4" fill="none" stroke="#22A982" stroke-width="2.5"/>
+    <path d="M581 1026 L598 1026 M581 1033 L598 1033 M581 1040 L593 1040" stroke="#22A982" stroke-width="2.2" stroke-linecap="round"/>
+    <text x="557" y="1110" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="750" fill="#20243A">Track Assignments</text>
+    <text x="557" y="1147" font-family="Inter, Arial, sans-serif" font-size="16" fill="#6A7085">Remember deadlines and see</text>
+    <text x="557" y="1173" font-family="Inter, Arial, sans-serif" font-size="16" fill="#6A7085">what you need to finish next.</text>
+    <text x="557" y="1210" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#6C63FF">Explore feature  →</text>
+  </g>
+
+  <!-- Feature card 3 -->
+  <g filter="url(#shadow)">
+    <rect x="960" y="970" width="390" height="270" rx="22" fill="#FFFFFF" stroke="#ECECF5" stroke-width="1.5"/>
+    <rect x="992" y="1002" width="64" height="64" rx="18" fill="#FFF3E1"/>
+    <rect x="1009" y="1017" width="31" height="32" rx="5" fill="none" stroke="#D99127" stroke-width="2.5"/>
+    <path d="M1009 1027 L1040 1027 M1017 1013 L1017 1021 M1032 1013 L1032 1021" stroke="#D99127" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="1018" cy="1036" r="2" fill="#D99127"/><circle cx="1026" cy="1036" r="2" fill="#D99127"/><circle cx="1034" cy="1036" r="2" fill="#D99127"/>
+    <text x="992" y="1110" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="750" fill="#20243A">Plan Your Exams</text>
+    <text x="992" y="1147" font-family="Inter, Arial, sans-serif" font-size="16" fill="#6A7085">Create a clear exam schedule</text>
+    <text x="992" y="1173" font-family="Inter, Arial, sans-serif" font-size="16" fill="#6A7085">and prepare with more confidence.</text>
+    <text x="992" y="1210" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#6C63FF">Explore feature  →</text>
+  </g>
+
+  <!-- How it works -->
+  <rect x="48" y="1310" width="1344" height="350" rx="30" fill="#F8F8FF"/>
+  <text x="720" y="1375" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="750" letter-spacing="1.8" fill="#6C63FF">A SIMPLE ROUTINE</text>
+  <text x="720" y="1420" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="800" fill="#20243A">How StudyMate Works</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <circle cx="285" cy="1500" r="31" fill="#E9E6FF"/>
+    <text x="285" y="1507" text-anchor="middle" font-size="18" font-weight="800" fill="#6C63FF">01</text>
+    <text x="285" y="1555" text-anchor="middle" font-size="20" font-weight="750" fill="#20243A">Add Your Subjects</text>
+    <text x="285" y="1584" text-anchor="middle" font-size="15" fill="#6A7085">Start with your courses</text>
+    <text x="285" y="1607" text-anchor="middle" font-size="15" fill="#6A7085">and learning materials.</text>
+
+    <path d="M425 1500 L505 1500" stroke="#C9C5FF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M495 1491 L505 1500 L495 1509" fill="none" stroke="#C9C5FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="720" cy="1500" r="31" fill="#E9E6FF"/>
+    <text x="720" y="1507" text-anchor="middle" font-size="18" font-weight="800" fill="#6C63FF">02</text>
+    <text x="720" y="1555" text-anchor="middle" font-size="20" font-weight="750" fill="#20243A">Plan Your Tasks</text>
+    <text x="720" y="1584" text-anchor="middle" font-size="15" fill="#6A7085">Add assignments, study</text>
+    <text x="720" y="1607" text-anchor="middle" font-size="15" fill="#6A7085">sessions and exam dates.</text>
+
+    <path d="M860 1500 L940 1500" stroke="#C9C5FF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M930 1491 L940 1500 L930 1509" fill="none" stroke="#C9C5FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="1155" cy="1500" r="31" fill="#E9E6FF"/>
+    <text x="1155" y="1507" text-anchor="middle" font-size="18" font-weight="800" fill="#6C63FF">03</text>
+    <text x="1155" y="1555" text-anchor="middle" font-size="20" font-weight="750" fill="#20243A">Track Progress</text>
+    <text x="1155" y="1584" text-anchor="middle" font-size="15" fill="#6A7085">Celebrate completed tasks</text>
+    <text x="1155" y="1607" text-anchor="middle" font-size="15" fill="#6A7085">and keep moving forward.</text>
+  </g>
+
+  <!-- CTA -->
+  <rect x="90" y="1710" width="1260" height="230" rx="28" fill="url(#purpleGrad)"/>
+  <circle cx="1190" cy="1745" r="110" fill="#FFFFFF" opacity="0.06"/>
+  <circle cx="1260" cy="1900" r="155" fill="#FFFFFF" opacity="0.05"/>
+  <text x="720" y="1790" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#FFFFFF">Ready to Study Smarter?</text>
+  <text x="720" y="1830" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" fill="#E9E7FF">Take control of your study routine, one small step at a time.</text>
+  <rect x="610" y="1860" width="220" height="54" rx="13" fill="#FFFFFF"/>
+  <text x="720" y="1894" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="750" fill="#5B4DE6">Get Started Today  →</text>
+
+  <!-- Footer -->
+  <rect x="0" y="1980" width="1440" height="120" fill="#FFFFFF"/>
+  <line x1="72" y1="1980" x2="1368" y2="1980" stroke="#E9EAF2" stroke-width="1.5"/>
+  <g transform="translate(72 2015)">
+    <rect x="0" y="0" width="38" height="38" rx="11" fill="url(#purpleGrad)"/>
+    <path d="M8 11 Q14 8 19 12 Q24 8 30 11 L30 28 Q24 25 19 29 Q14 25 8 28 Z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M19 12 L19 29" stroke="#FFFFFF" stroke-width="1.8"/>
+    <text x="50" y="25" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="750" fill="#20243A">StudyMate</text>
+  </g>
+  <text x="72" y="2077" font-family="Inter, Arial, sans-serif" font-size="13" fill="#777D91">Helping students study smarter and stay organized.</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="14" font-weight="550" fill="#626981">
+    <text x="880" y="2037">Features</text>
+    <text x="975" y="2037">About</text>
+    <text x="1050" y="2037">Support</text>
+    <text x="1145" y="2037">Contact</text>
+  </g>
+  <text x="1368" y="2077" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="13" fill="#777D91">© 2026 StudyMate. Student concept project.</text>
+</svg>
